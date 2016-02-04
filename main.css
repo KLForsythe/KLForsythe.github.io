@@ -1,0 +1,60 @@
+ .topbar {
+ 	position: relative; 
+ 	left: 0; 
+ 	right: 0;
+ 	top: 0;
+ }
+
+ .navbar {
+ 	position: relative; 
+ 	top: 0;
+ 	left: 0;
+	background-image: url(images/black-and-white-cup-hand-mug.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+ 	
+ 	background-attachment: fixed;
+ 	background-position: center -238px; 
+ 	padding: 25em;
+ /*	height: 20px;*/
+	
+}
+
+.navbar .container-fluid {
+	margin: -22em -22em 0em -22em;
+
+}
+
+.intro{
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	color: white;
+	margin: auto;
+	width: 30%;
+} 
+
+.breaker {
+	border-top: 2px solid gray;
+	margin: 0 10em 0 10em;
+}
+.section .words {
+	padding: 2% 10% 0 10%;
+}
+.section .link {
+	padding: 0 10% 0 10%;
+}
+
+.projects {
+	margin: 0 10em 0 10em;
+}
+
+.projects h2 {
+	text-align: center;
+}
+.project img {
+	max-width: 20em;
+	height: auto;
+	padding: auto;
+}
