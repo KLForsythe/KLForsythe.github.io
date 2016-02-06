@@ -1,46 +1,66 @@
- .topbar {
+
+.topbar {
  	position: relative; 
  	left: 0; 
  	right: 0;
  	top: 0;
- }
 
- .navbar {
+ }
+  
+.topbar .navbar {
  	position: relative; 
  	top: 0;
  	left: 0;
 	background-image: url(images/black-and-white-cup-hand-mug.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
- 	
+	width: 100%;	
  	background-attachment: fixed;
- 	background-position: center -238px; 
+	background-position: center -15em;
  	padding: 25em;
- /*	height: 20px;*/
-	
+ 	font-family: "Shadows Into Light";	
 }
 
-.navbar .container-fluid {
-	margin: -22em -22em 0em -22em;
+.topbar .navbar-brand {
+	font-family: "Shadows Into Light"; 
+	font-size: 5em;
+}
 
+.topbar .navbar .container-fluid {
+	margin: -22em -22em 0em -22em;
+}
+
+.topbar .navbar-right {
+	font-size: 1.5em;
 }
 
 .intro{
 	position: absolute;
 	top: 30%;
-	left: 40%;
+	left: 30%;
 	color: white;
 	margin: auto;
 	width: 30%;
+	font-family: "special elite";
+	font-size: 5em;
+	text-align: center;
+
 } 
+
+
 
 .breaker {
 	border-top: 2px solid gray;
 	margin: 0 10em 0 10em;
 }
+
+.content {
+		font-family: 'Exo 2', sans-serif;
+}
+
 .section .words {
-	padding: 2% 10% 0 10%;
+	padding: 2% 10% 2% 10%;
+	text-align: center;
 }
 .section .link {
 	padding: 0 10% 0 10%;
@@ -48,6 +68,7 @@
 
 .projects {
 	margin: 0 10em 0 10em;
+	text-align: center;
 }
 
 .projects h2 {
@@ -57,4 +78,77 @@
 	max-width: 20em;
 	height: auto;
 	padding: auto;
+}
+
+.row.text-center > div {
+    display: inline-block;
+    float: none;
+}
+
+
+.rti {
+	height: 10em;
+	width: auto;
+
+}
+
+.work {
+	margin: 0 9em 0 9em;
+}
+
+.exp {
+	text-align: center;
+	vertical-align: center;
+/*	margin: 0 1em 0 1em;*/
+}
+
+.btn {
+	color:black;
+}
+
+.resume {
+	max-width: 90%;
+	height: auto;
+}
+
+.education {
+	margin: 0 10em 0 10em;
+	text-align: center;
+}
+
+#ed {
+	vertical-align: center;
+
+}
+
+
+
+footer {
+	background-color: #333333;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	font-family: "Shadows Into Light";
+	color: gray;
+	font-size: 1.5em;
+
+}
+
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	padding: 1% 1% 0 0;
+}
+
+.email {
+	float: left;
+	padding: 1% 0 0 1%;
+	vertical-align: middle;
+}
+
+footer a {
+	color: gray;
+	text-decoration: none;
 }
