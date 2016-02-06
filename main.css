@@ -64,6 +64,7 @@
 }
 .section .link {
 	padding: 0 10% 0 10%;
+	margin-left: -10em;
 }
 
 .projects {
