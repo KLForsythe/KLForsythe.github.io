@@ -6,6 +6,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Exo+2|Shadows+Into+Light|Special+Elite' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
 	<link rel="stylesheet" href="main.css">
+	<link rel="icon" 
+      type="image/png" 
+      href="images/favicon.ico">
 </head>
 <body>
 <div class="topbar">
@@ -19,16 +22,16 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">kf</a>
+	      <a class="navbar-brand" >kf</a>
 	    </div>
 
 	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Skills</a></li>
-	        <li><a href="#">Experience</a></li>
-	        <li><a href="#">Education</a></li>
-	        <li><a href="#">Resume</a></li>
-	        <li><a href="#">About me</a></li>
-	        <li><a href="#">Contact</a></li>
+	        <li><a href="#skills">Skills</a></li>
+	        <li><a href="#experience">Experience</a></li>
+	        <li><a href="#education">Education</a></li>
+	        <li><a href="images/KForsythe_resume_2016.pdf" download>Resume</a></li>
+	        <li><a href="#about">About me</a></li>
+	        <li><a href="mailto:forsythe.k@gmail.com">Contact</a></li>
 	      </ul>
     	</div><!-- /.navbar-collapse -->
   	</div><!-- /.container-fluid -->
@@ -44,16 +47,17 @@
 <div class="breaker">
 </div>
 <div class="content">
+
 <div class="container-fluid section">
 	<br><br>
 	<div class="row">
 		<div class="col-md-8 words">
 			<h2>A few words about myself...</h2>
-			<p>I moved to Asheville toward the end of 2015 from New York City, where I where I was my grandmother's primary caretaker for nine years, while simultaneously working as a social science researcher. I am now transitioning into coding, as a full-stack developer with Ruby on Rails, and am thrilled with and excited about this move. I enjoy reading, hiking, and computer gaming, and I volunteer with AARP Tax Aide. Want to learn more? Click my picture.</p>
+			<p>I moved to Asheville toward the end of 2015 from New York City, where I where I was my grandmother's primary caretaker for nine years, while simultaneously working as a social science researcher. I am now transitioning into coding, as a full-stack developer with Ruby on Rails, and am thrilled with and excited about this move. I enjoy reading, hiking, and computer gaming, and I volunteer with AARP Tax Aide. Want to learn more? Keep reading.</p>
 		</div>
-	
+	<a name="about">
 		<div class="col-md-2 link"> 
-			<a class="btn btn-default" href="#" role="button"><img src="images/kforsythesquare.jpg"></a>
+			<a class="btn btn-default" href="images/KForsythe_resume_2016.pdf" download role="button"><img src="images/kforsythesquare.jpg"></a>
 		</div>
 	</div>
 </div>
@@ -69,15 +73,36 @@
 		<h2>A few of my projects</h2>
 		<br>
 	</div>
+
 	<div class="row">
 		<div class = "col-md-4 project">
-			<a class="btn btn-default" href="#" role="button"><img src="images/oldbookstack2.jpeg"></a>
+			<a class="btn btn-default" href="https://bookshelf-klf.herokuapp.com" target="_blank" role="button"><img src="images/oldbookstack2.jpeg"></a>
 		</div>
 		<div class="col-md-4 project">
-			<a class="btn btn-default" href="#" role="button"><img src="images/hiking2.jpg"></a>
+			<div id="hk-image" class="collapse in">
+				<a class="btn btn-default" data-toggle="collapse" data-target="#hk-image, #hk">
+					<img src="images/hiking2.jpg">				
+				</a>
+			</div>
+			<div id="hk" class="collapse">
+				<a data-toggle="collapse" data-target="#hk-image,#hk" class="hiking">	
+					Currently in development: an app for day and section Appalachian Trail hikers to log the portions of the trail they have hiked"
+				</a>
+			</div>		
 		</div>
+					
+			<!-- 	<a  data-toggle="collapse" data-target="#asc-image,#asc">
+					<div id="asc-image" class="collapse in"><img src="images/asc.jpg" height="120"/></div>
+				</a>
+				
+				<div id="asc" class="collapse">
+				<a data-toggle="collapse" data-target="#asc-image,#asc" class="edu">
+					I received my undergraduate degree from Agnes Scott College in Atlanta.  I graduated Magna Cum Laude, and was a member of two national honor societies, Phi Beta Kappa and Phi Alpha Theta.
+				</a>
+				</div> -->
+			
 		<div class="col-md-4 project">
-			<a class="btn btn-default" href="#" role="button"><img src="images/black-and-white-rails-station-railroad2.jpg"></a>
+			<a class="btn btn-default" href="https://record-expenses-and-data.herokuapp.com/" role="button"><img src="images/road.jpg"></a>
 		</div>
 	</div>
 </div>	
@@ -87,7 +112,7 @@
 </div>
 <br>
 <br>
-  
+  <a name="skills">
 <div class="container-fluid">
 	<div class="row text-center">
 		
@@ -104,14 +129,20 @@
 			<img src="images/css.png" height="100"/>
 		</div>
 		<div class="icon col-md-1">
+			<img src="images/gh2.png" height="100"/>
+		</div>
+		<div class="icon col-md-1">
+			<img src="images/heroku.png" height="100"/>
+		</div>
+<!-- 		<div class="icon col-md-1">
 			<img src="images/mvc_logo.gif" height="100"/>
 		</div>
 		<div class="icon col-md-1">
 			<img src="images/js.png" height="100" />
-		</div>
-		<div class="icon col-md-1"> 
+		</div> -->
+		<!-- <div class="icon col-md-1"> 
 			<img src="images/sql.png" height="100" />
-		</div>
+		</div> -->
 		<div class="icon col-md-1">
 			<img src="images/bootstrap-logo.png" height="100" />
 		</div>
@@ -124,7 +155,7 @@
 </div>
 <br>
 <br>
-
+<a name="experience">
 <div class="container-fluid work">
 	<div class="row">
 
@@ -134,16 +165,16 @@
 
 		<div class="col-md-8 exp">
 			<h2>Work Experience</h2>
-			<p>I worked on various social science research projects for nine years with RTI; during those years, I demonstrated excellence in problem solving, teamwork, and analysis.  I showed the self-discipline required to meet deadlines and keep lines of communication open while working from a home office. Click the RTI logo for an example of a project I contributed to or look below for details. </p><button  class="btn btn-link" data-toggle="collapse" data-target="#resume"><span class="glyphicon glyphicon-menu-down"></span></button>
+			<p>I worked on various social science research projects for nine years with RTI; during those years, I demonstrated excellence in problem solving, teamwork, and analysis.  I showed the self-discipline required to meet deadlines and keep lines of communication open while working from a home office. Click the RTI logo for an example of a project I contributed to or click below for details. </p><button  class="btn btn-link" data-toggle="collapse" data-target="#resume"><span class="glyphicon glyphicon-menu-down"></span></button>
 		</div>
 	</div>
 	<div id="resume" class="row text-center collapse">
 		
 		<div class="col-md-5">
-			<img class="resume" src="images/resume.jpg">
+			<img class="resume" src="images/kforsythe_resume_1.jpg">
 		</div>
 		<div class="col-md-5">
-			<img class="resume" src="images/resume2.jpg">
+			<img class="resume" src="images/kforsythe_resume_2.jpg">
 		</div>
 	</div>
 </div>
@@ -154,34 +185,44 @@
 <br>
 <br>
 
-
 <div class="container-fluid education">
 
 	<div class="row">
 	
 		<div id="ed" class="col-md-3">
-			<h2>Education</h2>
-			<div id="asc" class="collapse">
-			<p>I received my undergraduate degree from Agnes Scott College in Atlanta.  I graduated Magna Cum Laude, and was a member of two national honor societies, Phi Beta Kappa and Phi Alpha Theta.  </p>
-			</div>
-			<div id="tts" class="collapse">
-				<p>info about tts</p>
-			</div>
-			<div id="gla" class="collapse">
-				<p>info about glasgow</p>
-			</div>
+			<h2 >Education</h2>
 		</div>
 		
 			<div class="col-md-3 school">
-				<a data-toggle="collapse" data-target="#asc"><img src="images/asc.jpg" height="120"/></a>
+				<a  data-toggle="collapse" data-target="#asc-image,#asc">
+					<div id="asc-image" class="collapse in"><img src="images/asc.jpg" height="120"/></div>
+				</a>
+				
+				<div id="asc" class="collapse">
+				<a data-toggle="collapse" data-target="#asc-image,#asc" class="edu">
+					I received my undergraduate degree from Agnes Scott College in Atlanta.  I graduated Magna Cum Laude, and was a member of two national honor societies, Phi Beta Kappa and Phi Alpha Theta.
+				</a>
+				</div>
 			</div>
 
 			<div class="col-md-3 school">
-				<a data-toggle="collapse" data-target="#tts" data-parent="#ed-group">
-				<img src="images/tts-avl.jpg" height="120"/></a>
+				
+				<a data-toggle="collapse" data-target="#tts-image,#tts">
+					<div id="tts-image" class="collapse in"><img src="images/tts-avl.jpg" height="120"/></div>
+				</a>
+
+				<div id="tts" class="collapse">
+				<a data-toggle="collapse" data-target="#tts-image, #tts" class="edu">In 2015 I decided to change careers, moving into an exciting and inspiring new career in coding.  I am a recent graduate of Tech Talent South Asheville's <a href="http://techtalentsouth.com/courses/code-immersion/" target="blank">Code Immersion Program.</a></a>
+				
+			</div>
 			</div>
 			<div class="col-md-3 school">
-				<a data-toggle="collapse" data-target="#gla" data-parent="#ed-group"><img src="images/Glasgow.jpg" height="120"/></a>
+				<a data-toggle="collapse" data-target="#gla-image,#gla">
+					<div id="gla-image" class="collapse in"><img src="images/Glasgow.jpg" height="120"/></div>
+				</a>			
+			<div id="gla" class="collapse">
+				<a data-toggle="collapse" data-target="#gla-image,#gla" class="edu">I attended graduate school at the University of Glasgow, spending several years working toward my Ph.D. before deciding that a career outside academia would be a better fit.</a>
+			</div>
 			</div>
 	</div>	
 </div>
@@ -192,17 +233,19 @@
 <br>
 
 
+
+
 <footer class="container-fluid">  
 
   <div class="email"><p>forsythe.k@gmail.com</p></div>
 
   	<ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="images/KForsythe_resume_2016.pdf" download>Resume</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="mailto:forsythe.k@gmail.com">Contact</a></li>
  	 </ul>
  
 </footer>
@@ -210,7 +253,9 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
