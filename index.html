@@ -76,7 +76,14 @@
 
 	<div class="row">
 		<div class = "col-md-4 project">
-			<a class="btn btn-default" href="https://bookshelf-klf.herokuapp.com" target="_blank" role="button"><img src="images/oldbookstack2.jpeg"></a>
+			<div id="bk-image" class="collapse in">
+				<a class="btn btn-default" data-toggle="collapse" data-target="#bk-image, #bk"><img src="images/oldbookstack2.jpeg"></a>
+			</div>
+			<div id="bk" class="collapse">
+				<a data-toggle="collapse" data-target="#bk-image,#bk" class="hiking">
+					This is a personal book database, allowing an individual to keep track of their book inventory, upload cover images or add them from a url, rate their books, tag them, and run a complex search. I developed this app independently, using gems where appropriate, and developing own solutions when existing gems did not provide needed functions.  I added a tagging system, and wrote a search system, and a nested attribute alternative.  Deployed<a href="https://bookshelf-klf.herokuapp.com" target="_blank"> here.</a>
+				</a>
+			</div>
 		</div>
 		<div class="col-md-4 project">
 			<div id="hk-image" class="collapse in">
@@ -92,7 +99,15 @@
 		</div>
 
 		<div class="col-md-4 project">
-			<a class="btn btn-default" href="https://record-expenses-and-data.herokuapp.com/" target="_blank" role="button"><img src="images/road.jpg"></a>
+			<div id="read-image" class="collapse in">
+				<a class="btn btn-default" data-toggle="collapse" data-target="#read-image, #read"><img src="images/road.jpg"></a>
+			</div>
+			<div id="read" class="collapse">
+				<a data-toggle="collapse" data-target="#read-image,#read" class="hiking">
+				I worked closely with a teammate to develop this app (a mileage, time, and expense tracker), coordinating and updating with github; my primary contribution focused on the back-end. I wrote custom validators, extensive methods in models and helpers to provide totals for users’ time and mileage, and enabled setting foreign key by default from parent show page. The app is deployed
+				<a href="https://record-expenses-and-data.herokuapp.com/" target="_blank"> here.</a>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>	
