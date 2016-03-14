@@ -18,11 +18,11 @@
  	background-attachment: fixed;
 	background-position: center -15em;
  	padding: 25em;
- 	font-family: "Shadows Into Light";	
+ 	font-family: "Exo 2";	
 }
 
 .topbar .navbar-brand {
-	font-family: "Shadows Into Light"; 
+	font-family: "Exo 2"; 
 	font-size: 5em;
 }
 
@@ -129,7 +129,7 @@ footer {
 	position: absolute;
 	width: 100%;
 	height: auto;
-	font-family: "Shadows Into Light";
+	font-family: "Exo 2";
 	color: gray;
 	font-size: 1.5em;
 
@@ -170,4 +170,9 @@ footer a {
 .hiking:hover {
 	text-decoration: none;
     color: black;
+}
+
+.monogram {
+	height: 1em;
+	margin-top: -0.5em;
 }
