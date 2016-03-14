@@ -31,7 +31,7 @@
 }
 
 .topbar .navbar-right {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .intro{
@@ -131,7 +131,7 @@ footer {
 	height: auto;
 	font-family: "Exo 2";
 	color: gray;
-	font-size: 1em;
+	font-size: 0.7em;
 
 }
 
@@ -144,9 +144,10 @@ footer ul li {
 }
 
 .email {
+
 	float: left;
-	padding: 1% 0 0 1%;
-	vertical-align: middle;
+	padding: 1.5% 0 0 1%;
+	
 }
 
 footer a {
